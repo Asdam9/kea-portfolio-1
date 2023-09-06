@@ -1,0 +1,101 @@
+@import url(light.css);
+
+@import url(dark.css);
+
+@import url(mobile.css);
+
+body a {
+    color:#999;
+    text-decoration:none;
+}
+
+body a:hover {
+    color: lime;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    color:#666;
+}
+
+footer a {
+    color:#999;
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+footer a:hover {
+    color: lime;
+}
+
+body {
+    margin: 25px;
+}
+
+br {
+    display: block;
+    content: "";
+    margin: 12px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    overflow: hidden;
+    background-color: slategray;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.nav-list li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    margin-left: 10px;
+    text-decoration: none;
+    color: lime;
+}
+
+.language-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.duo-list {
+    list-style: none;
+}
+
+.duo-list li {
+    margin-right: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.info ul li {
+    margin-right: 15px;
+}
