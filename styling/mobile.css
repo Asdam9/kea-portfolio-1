@@ -1,0 +1,63 @@
+main {
+    margin: 20%;
+    margin-top: 0;
+    padding: 5%;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/*  
+Yes I floated right, it was easier and cleaner way to get what I wanted
+which was to have the text wrap around the image.
+*/
+#profile-pic {
+    float: right;
+    width: 30%;
+    padding: 2.5%;
+    padding-top: 40px;
+}
+
+#profile-pic-container {
+    display: block;
+}
+
+@media screen and (max-width: 750px) {
+
+    body {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+
+    main {
+        margin: 1%;
+    }
+
+    .nav-list {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        font-size: 12px;
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #profile-pic {
+        padding-top: 10px;
+        width: 35%
+    }
+
+    #profile-pic-container {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling/main.css">
     <title>Adam Fordsmand's webpage</title>
 </head>
 <body>
     <header id="top">
         <nav>
-            <ul>
+            <ul class="nav-list">
                 <li><a href="#top">Top</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -18,6 +19,7 @@
     </header>
     <main> 
         <section id="about">
+            <div id="profile-pic-container"><img src="images/profile.png" alt="Profile picture" id="profile-pic"></div>
             <h3>About</h3>
             <p>
                 My name is Adam Fordsmand and this is my website. I am a developer whom have worked primarily in the financial auditing sector, where I've spent my time developing audit tools, amongst other things.<br>
@@ -47,38 +49,41 @@
                     </ul>
                 </div>
             </div>
-
             <p>
                 My favourite language to code in is C, however I am very well versed in the C-family of languages. I am still very young and have a lot to learn, when it comes to programming, but due to my professional experience despite my age, then I still have a level of competence.
             </p>
-
-            <img src="images/profile.png" alt="Profile picture" id="profile-pic">
         </section>
 
         <section id="projects">
-
+            <h3>Projects</h3>
+            <p>The following is a serious of either one of my personal projects or any of the forks of repositories that I modified for my personal needs</p>
+            <h3>Gitea Repositories:</h3>
+            <ul>
+                <li><a href="https://git.test.fordsmand.xyz/Asdam9/FoCuSSG">My WIP Static Site Generator</a></li>
+                <li><a href="https://git.test.fordsmand.xyz/Asdam9/Fordsmand-DWM">My fork of DWM</a></li>
+                <li><a href="https://git.test.fordsmand.xyz/Asdam9/Fordsmand-Slock">My fork of Slock</a></li>
+                <li><a href="https://git.test.fordsmand.xyz/Asdam9/Fordsmand-ST">My fork of ST</a></li>
+                <li><a href="https://git.test.fordsmand.xyz/Asdam9/Fordsmand-Dmenu">My fork of Dmenu</a></li>
+                <li><a href="https://git.test.fordsmand.xyz/Asdam9/sc-im">My fork of sc-im</a></li>
+            </ul>
         </section>
     </main>
     <footer>
         <section id="contact">
             <h3>Contact:</h3>
-                    <li>Email:</li>
-                    <li>Phone number:</li>
-            <div class="duo-list">
+            <p>
+                I can be contacted through the means listed below. When contacting me, please state your name and purpose.
+            </p>
+            <div class="info">
                 <ul>
-                    <li class="flex-li">
-                        <p>Mail:</p>
-                        <a href="mailto:adam@fordsmand.dk">adam@fordsmand.dk</a>
+                    <li>
+                        <p>Mail: <a href="mailto:adam@fordsmand.dk">adam@fordsmand.dk</a></p>
                     </li>
-                    <li class="flex-li">
-                        <p>Phone:</p>
-                        <a href="tel:+4553706608">+45 53 70 66 08</a>
+                    <li>
+                        <p>Phone: <a href="tel:+4553706608">+45 53 70 66 08</a></p>
                     </li>
                 </ul>
             </div>
-            <p>
-                I can be contacted through the means listed above. When contacting me, please state your name and purpose.
-            </p>
         </section>
     </footer>
 </body>

@@ -1,0 +1,10 @@
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: whitesmoke;
+        color: darkslategray;
+    }
+
+    main {
+        background-color: #F0EAF0;
+    }
+}
